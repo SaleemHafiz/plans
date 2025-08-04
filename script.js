@@ -72,7 +72,7 @@ function loadStudents() {
 studentSelect.onchange = () => {
   const selected = studentSelect.value;
   localStorage.setItem("selectedStudent", selected);
-  title.innerText = `Learn Quraan Academy - ${selected}'s Class Plans`;
+  title.innerText = `${selected}'s Class Plans`;
   loadPlans(selected);
 };
 
