@@ -211,3 +211,5 @@ function updateSuggestion(input, suggestionEl) {
 }
 
 loadStudents();
+
+ console.log("▶️ Usage:\naddStudent('ali ahmed') // adds single student\naddStudent(['ali ahmed', 'ayesha fatima']) // adds multiple students");

@@ -48,7 +48,7 @@ select:hover {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -77,7 +77,7 @@ textarea {
   border: none;
   background: transparent;
   resize: none;
-  min-height: 40px;
+  min-height: auto;
   overflow-y: hidden;
   outline: none;
 }
