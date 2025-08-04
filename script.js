@@ -59,11 +59,11 @@ function loadStudents() {
   const savedStudent = localStorage.getItem("selectedStudent");
   if (savedStudent && students[savedStudent]) {
     studentSelect.value = savedStudent;
-    title.innerText = `Learn Quraan Academy - ${savedStudent}'s Class Plans`;
+    title.innerText = `${savedStudent}'s Class Plans`;
     loadPlans(savedStudent);
   } else {
     plansContainer.innerHTML = "";
-    title.innerText = "Learn Quraan Academy";
+    title.innerText = "Student's Class Plans";
   }
 
   filterSelect.value = "incomplete"; // Default filter
